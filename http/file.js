@@ -10,7 +10,7 @@ var root = path.resolve(process.argv[2] || '.');
 console.log('Static root dir: ' + root);
 
 //创建服务器
-var server = http.createServer((resquest,response)=>{
+var server = http.createServer((request,response)=>{
     // 获取url的pathname
     var pathname = url.parse(request.url).pathname;
     // 获得对应的本地文件路径
