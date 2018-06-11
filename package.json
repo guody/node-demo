@@ -1,0 +1,11 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "node demo",
+  "main": "index.js",
+  "scripts": {
+    "fs":"node ./fs/readFile.js"
+  },
+  "author": "guoxiaodi",
+  "license": "ISC"
+}
